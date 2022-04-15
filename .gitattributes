@@ -1,2 +1,1 @@
-apps/gcc/precompiled/x86_86 filter=lfs diff=lfs merge=lfs -text
 apps/gcc/precompiled/x86_86/gcc_11-2-0.precompiled.tar.gz filter=lfs diff=lfs merge=lfs -text
