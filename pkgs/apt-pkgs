@@ -1,0 +1,7 @@
+emacs
+vim
+build-essential
+curl
+ca-certificates
+gnupg
+lsb-release

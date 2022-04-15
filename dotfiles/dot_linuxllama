@@ -1,0 +1,16 @@
+## dotfile to be sourced either from the ~/.profile or the ~/.bashrc
+
+## Sets up the environment for any applications that were built from source and some other
+## conveniences
+
+# GCC configuration
+export GCC_MAJOR_VERSION=11
+export GCC_MINOR_VERSION=2
+export GCC_PATCH_VERSION=0
+export LLAMA_GCC_APP_DIR=$HOME/apps/gcc/gcc_${GCC_MAJOR_VERSION}-${GCC_MINOR_VERSION}-${GCC_PATCH_VERSION}
+
+export PATH=$LLAMA_GCC_APP_DIR:$PATH
+
+
+# ROS source command
+alias ros_source="source /opt/ros/galactic/setup.bash"
